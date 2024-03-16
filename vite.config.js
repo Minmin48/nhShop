@@ -12,7 +12,7 @@ export default defineConfig({
                 view: resolve(__dirname, './webs/view.html'),
                 cart: resolve(__dirname, './webs/cart.html'),
                 check_out: resolve(__dirname, './webs/check_out.html'),
-                lognin: resolve(__dirname, './webs/login.html'),
+                lognin: resolve(__dirname, './webs/lognin.html'),
             },
         },
     },
