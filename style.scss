@@ -613,20 +613,21 @@ img {
 }
 
 .view_img {
-    display: flex;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
 .item-img img {
-    width: 110%;
+    width: 80%;
     background-color: #faf3ea;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
 .item-img2 img {
-    width: 150%;
+    width: 180%;
     margin-right: 420px;
     background-color: #faf3ea;
     border-radius: 10px;
